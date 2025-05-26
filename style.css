@@ -1,0 +1,51 @@
+h1 {
+  color: rgb(160, 200, 120);
+  font-size: 42;
+  font-family: Dindong;
+}
+p {
+  color: rgb(114, 125, 115);
+  font-size: :18;
+  font-family: monospace;
+}
+a {
+  color: rgb(114, 125, 115);
+  font-size: :18;
+  font-family: monospace;
+}
+
+    a:hover {
+      color: rgb(255, 116, 139);
+    }
+
+body {
+  color: rgb(114, 125, 115);
+  font-size: :18;
+  font-family: monospace;
+
+  background-color: rgb(228, 239, 231);
+
+}
+
+.container {
+  width: 900px;
+  margin: 30px auto;
+}
+
+@media (max-width: 950px) {
+  .container {
+    width: 500px;
+    margin: 30px auto;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 300px;
+    margin: 30px auto;
+  }
+}
+
+    .card-white {
+   background: white ;
+}
